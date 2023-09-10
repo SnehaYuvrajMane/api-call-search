@@ -1,0 +1,40 @@
+.card{
+  width: 300px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 10px;
+  align-items: center;
+  padding: 20px;
+}
+
+.App input{
+  width: 300px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.data{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.card img{
+  object-fit: contain;
+}
